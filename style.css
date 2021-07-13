@@ -409,7 +409,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: rgb(37, 220, 20);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
