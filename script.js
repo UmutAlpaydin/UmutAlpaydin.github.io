@@ -34,13 +34,6 @@ $(document).ready(function(){
     });
 
     // typing text animation script
-    var typed = new Typed(".typing", {
-        strings: ["Data Scientist", "ML Engineer", "AI Engineer" ],
-        typeSpeed: 85,
-        backSpeed: 60,
-        loop: true
-    });
-
     var typed = new Typed(".typing-2", {
         strings: ["Data Scientist", "ML Engineer", "AI Engineer" ],
         typeSpeed: 85,

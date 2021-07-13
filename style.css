@@ -178,12 +178,17 @@ section .title::after{
     margin: auto 0 auto 30px;
 }
 .home .home-content .text-1{
-    font-size: 27px;
+    margin-left: 275px;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 25px;
     font-weight: 600;
-    margin-left: -3px;
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #39587F;
+    margin-left: 300px;
 }
 .home .home-content .text-3{
     font-size: 40px;
@@ -196,7 +201,7 @@ section .title::after{
 .home .home-content a{
     display: inline-block;
     background: #39587F;
-    color: #fff;
+    color: rgb(243, 239, 239);
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
