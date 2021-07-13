@@ -165,7 +165,8 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/data.jpg") no-repeat center;
+    background: url("images/back3.jpg") no-repeat center;
+    opacity: 20;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -359,10 +360,16 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .python::before{
-    width: 90%;
+    width: 95%;
+}
+.skills-content .right .java::before{
+    width: 80%;
+}
+.skills-content .right .cpp::before{
+    width: 75%;
 }
 .skills-content .right .sql::before{
-    width: 75%;
+    width: 70%;
 }
 .skills-content .right .html::before{
     width: 60%;
@@ -376,9 +383,7 @@ section .title::after{
 .skills-content .right .php::before{
     width: 50%;
 }
-.skills-content .right .mysql::before{
-    width: 70%;
-}
+
 
 
 /* contact section styling */
@@ -405,11 +410,12 @@ section .title::after{
     align-items: center;
 }
 .contact .contact-content .row .info{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .contact .contact-content .row i{
-    font-size: 25px;
-    color: rgb(37, 220, 20);
+    font-size: 30px;
+    margin-left: 10px;
+    color: rgb(103, 149, 247);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -480,13 +486,16 @@ section .title::after{
 
 /* footer section styling */
 footer{
-    background: #111;
-    padding: 15px 23px;
+    background: rgb(12, 12, 12);
+    padding: 15px 30px;
     color: #fff;
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #0077b5;
     text-decoration: none;
 }
 footer span a:hover{
