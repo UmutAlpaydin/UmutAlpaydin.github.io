@@ -365,13 +365,16 @@ section .title::after{
     background: #39587F;
 }
 .skills-content .right .python::before{
-    width: 95%;
+    width: 90%;
 }
 .skills-content .right .java::before{
-    width: 80%;
+    width: 70%;
+}
+.skills-content .right .csharp::before{
+    width: 70%;
 }
 .skills-content .right .cpp::before{
-    width: 75%;
+    width: 70%;
 }
 .skills-content .right .sql::before{
     width: 70%;
