@@ -31,8 +31,11 @@ $(document).ready(function(){
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
+        // $('html').css("overflow-y", "hidden");
     });
-
+    // $('.fas fa-bars active').click(function(){
+    //     $('html').css("overflow-y", "scroll");
+    // })
     // typing text animation script
     var typed = new Typed(".typing-2", {
         strings: ["Software Engineer", "Python Developer", "AI Engineer" ],
